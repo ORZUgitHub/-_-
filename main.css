@@ -6,7 +6,10 @@
 body{
 background-color: #FFFFF3
 }
-.text-center{
+.container{
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
 
 }
 .list-ul{
@@ -17,13 +20,21 @@ background-color: #FFFFF3
     
 
 }
+.text-center img{
+    width:650px;
+    height: 742px;
+}
+.list-ul{
+    width: 100%;
+    justify-content: space-around;
+}
 .list-ul li a i{
 font-size: 30px;
 color: white;
 }
 @media only screen and (max-width:995px){
     .list-ul{
-        width: 780px;
+        width: 620px;
         display: flex;
         justify-content:space-around;
     }
